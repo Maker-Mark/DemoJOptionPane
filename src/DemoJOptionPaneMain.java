@@ -3,8 +3,6 @@ import javax.swing.JOptionPane;
 public class DemoJOptionPaneMain {
 	public static void main(String[] args) throws Exception{
 
-	
-		
 		System.out.println("lets see how JOptionPane works");
 
 		JOptionPane.showMessageDialog(null, "There are three different kinds of dialog boxes:");
@@ -32,11 +30,6 @@ public class DemoJOptionPaneMain {
 		//The JOptionPane Class also allows its methods to be overloaded. This can be seen in the method below.
 		//Video @ https://www.youtube.com/watch?v=WfkZQHffxqE&t=12s
 		JOptionPane.showMessageDialog(null, "Here is the message", "then comes the title", JOptionPane.NO_OPTION);
-
-
-
-
-
 
 	}
 
